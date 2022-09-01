@@ -28,7 +28,7 @@ app.use("/api/properties/", propertyRoutes);
 app.use(errorHandler);
 
 app.get("/", (req, res) => {
-  res.send("frontend deployed on https://buyestate.vercel.app");
+  res.send("frontend deployed on https://five-star-property.vercel.app");
 });
 
 // to serve frontend   UPDATE:frontend will be served on vercel
